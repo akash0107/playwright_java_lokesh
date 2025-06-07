@@ -91,7 +91,7 @@ public class App {
 
             page.navigate("https://selectorshub.com/shadow-dom-in-iframe/");
             FrameLocator frameLocator =  page.frameLocator("[id='pact']");
-            frameLocator.locator("input#tea").fill("Coffee");
+            frameLocator.locator("input#tea").fill("latte");
 
         }
     }
